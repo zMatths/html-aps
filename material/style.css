@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    background: #006400;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 55px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.principal {
+    background: #90ee90;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding-right: 350px; 
+    padding-top: 50px;
+    border-left: 150px solid white; 
+    border-right: 150px solid white;
+    padding: 150px 150px 220px;
+}
+
+.principal h1{
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+
+.imagem_principal{
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.conteudo_principal{
+    margin-top: 20px;
+    padding-left: 100px;
+    
+
+}
+.conteudo_principal h1{
+    padding-left: 75px;
+}
+
+.botao_principal{
+    background-color: #2196F3;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 100px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+}
+.botao_principal:hover{
+    background-color: #4CAF50;
+
+}
+
+footer{
+    background: green;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+}
+
+
+.principalsec{
+    background: #90ee90;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    padding-right: 350px; 
+    padding-top: 50px;
+    border-left: 150px solid white; 
+    border-right: 150px solid white;
+    padding: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+.tabela {
+    background-color: white;
+    color: #006400; /* verde escuro */
+    border: none;
+    border-radius: 20px;
+    padding: 100px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+summary {
+    all: unset;
+    padding-right: 70px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    color: rgb(255 255 255 / .6);
+    background: rgb(16 28 34);
+    width: 82%;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+details{
+    background-color: rgb(12 12 14);
+    color: white;
+}
+
+p{
+    padding-bottom: 16px;
+    font-size: 0.8;
+}

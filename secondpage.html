@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Site APS</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scales=1.0, maximum-scale=1,0">
+    </head>
+    <body>
+        <header>
+            <div class="center">
+                <div class="logo"><img src="imagens/Logo (1).png" /></div>
+                <div class="menu">
+                    <a href="index.html">HOME</a>
+                    <a href="secondpage.html">RECICLE</a>
+                    <a href="aboutus.html">ABOUT US</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="principalsec">
+                <table class="tabela">
+                    <tr>
+                      <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                      <td><b>Escolha o material</b></td>
+                      <td>
+                        <select id="itens"> 
+                          <option value="material/plastico.html">Plástico</option>
+                          <option value="material/papel.html">Papel</option>
+                          <option value="material/vidro.html">Vidro</option>
+                          <option value="material/metais.html">Metais</option>
+                          <option value="material/organico.html">Orgânico</option>
+                          <option value="material/eletronico.html">Eletrônico</option>
+                          <option value="material/pano.html">Pano</option>
+                          <option value="material/oleo.html">Óleo de cozinha</option>
+                          <option value="material/bateria.html">Baterias</option>
+                          <option value="material/cartoes.html">Cartões</option>
+                        </select>
+                      </td>
+                      <td>
+                        <button class="botaotab" onclick=navegar()> ok </button>
+                      </td>
+                    </tr>
+                  </table>
+              </div>
+              <script>
+                function navegar() {
+                    var selectedItem = document.getElementById("itens").value;
+                    // Redirecionar para outra página com o item selecionado
+                    window.location.href = selectedItem;
+                }
+            </script>
+            </div>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
