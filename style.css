@@ -39,11 +39,25 @@
     border-left: 150px solid white; 
     border-right: 150px solid white;
     padding: 150px;
+    font-size:20px;
 }
 
 .principal h1{
     margin-left: 50px;
     margin-bottom: 25px;
+}
+
+.text {
+    background: #90ee90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    border-left: 150px solid white; 
+    border-right: 150px solid white;
+    font-size:20px;
 }
 
 .imagem_principal{
